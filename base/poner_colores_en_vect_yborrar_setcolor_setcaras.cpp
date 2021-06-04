@@ -84,49 +84,49 @@ void menu() {
 }
 
 vector<float> vertices0 = {
-        -0.5f, -0.5f, -0.5f,    1.0,0.0, 0.0,     1.0f, 0.0f,
-         0.5f, -0.5f, -0.5f,    1.0,0.0, 0.0,     0.0f, 0.0f,                     //  DOWN
-         0.5f,  0.5f, -0.5f,    1.0,0.0, 0.0,     0.0f, 1.0f,
-         0.5f,  0.5f, -0.5f,    1.0,0.0, 0.0,     0.0f, 1.0f,
-        -0.5f,  0.5f, -0.5f,    1.0,0.0, 0.0,     1.0f, 1.0f,
-        -0.5f, -0.5f, -0.5f,    1.0,0.0, 0.0,     1.0f, 0.0,
+        -0.5f, -0.5f, -0.5f,    0.0,0.0, 0.0,     1.0f, 0.0f,
+         0.5f, -0.5f, -0.5f,    0.0,0.0, 0.0,     0.0f, 0.0f,                     //  DOWN
+         0.5f,  0.5f, -0.5f,    0.0,0.0, 0.0,     0.0f, 1.0f,
+         0.5f,  0.5f, -0.5f,    0.0,0.0, 0.0,     0.0f, 1.0f,
+        -0.5f,  0.5f, -0.5f,    0.0,0.0, 0.0,     1.0f, 1.0f,
+        -0.5f, -0.5f, -0.5f,    0.0,0.0, 0.0,     1.0f, 0.0,
 
-        -0.5f, -0.5f,  0.5f,    0.0,1.0, 0.0,     0.0f, 0.0f,
-         0.5f, -0.5f,  0.5f,    0.0,1.0, 0.0,     1.0f, 0.0f,                          //UP FACE
-         0.5f,  0.5f,  0.5f,    0.0,1.0, 0.0,     1.0f, 1.0f,
-         0.5f,  0.5f,  0.5f,    0.0,1.0, 0.0,     1.0f, 1.0f,
-        -0.5f,  0.5f,  0.5f,    0.0,1.0, 0.0,     1.0f, 1.0f,
-        -0.5f, -0.5f,  0.5f,    0.0,1.0, 0.0,     0.0f, 0.0f,
+        -0.5f, -0.5f,  0.5f,    0.0,0.0, 0.0,     0.0f, 0.0f,
+         0.5f, -0.5f,  0.5f,    0.0,0.0, 0.0,     1.0f, 0.0f,                          //UP FACE
+         0.5f,  0.5f,  0.5f,    0.0,0.0, 0.0,     1.0f, 1.0f,
+         0.5f,  0.5f,  0.5f,    0.0,0.0, 0.0,     1.0f, 1.0f,
+        -0.5f,  0.5f,  0.5f,    0.0,0.0, 0.0,     1.0f, 1.0f,
+        -0.5f, -0.5f,  0.5f,    0.0,0.0, 0.0,     0.0f, 0.0f,
 
-        -0.5f,  0.5f, -0.5f,     0.0,0.0, 1.0,     0.0f, 1.0f,
-        -0.5f,  0.5f,  0.5f,     0.0,0.0, 1.0,     1.0f, 1.0f,
-        -0.5f, -0.5f,  0.5f,     0.0,0.0, 1.0,     1.0f, 0.0f,
-        -0.5f, -0.5f,  0.5f,     0.0,0.0, 1.0,     1.0f, 0.0f,
-        -0.5f, -0.5f, -0.5f,     0.0,0.0, 1.0,     0.0f, 0.0f,
-        -0.5f,  0.5f, -0.5f,     0.0,0.0, 1.0,     0.0f, 1.0f,
+        -0.5f,  0.5f, -0.5f,     0.0,0.0, 0.0,     0.0f, 1.0f,
+        -0.5f,  0.5f,  0.5f,     0.0,0.0, 0.0,     1.0f, 1.0f,
+        -0.5f, -0.5f,  0.5f,     0.0,0.0, 0.0,     1.0f, 0.0f,
+        -0.5f, -0.5f,  0.5f,     0.0,0.0, 0.0,     1.0f, 0.0f,
+        -0.5f, -0.5f, -0.5f,     0.0,0.0, 0.0,     0.0f, 0.0f,
+        -0.5f,  0.5f, -0.5f,     0.0,0.0, 0.0,     0.0f, 1.0f,
 
 
 
-         0.5f, -0.5f, -0.5f,      0.0,1.0, 1.0,    1.0f, 0.0f,
-         0.5f, -0.5f,  0.5f,      0.0,1.0, 1.0,    0.0f, 0.0f,
-         0.5f,  0.5f,  0.5f,      0.0,1.0, 1.0,    0.0f, 1.0f,
-         0.5f,  0.5f,  0.5f,      0.0,1.0, 1.0,    0.0f, 1.0f,       
-         0.5f,  0.5f, -0.5f,      0.0,1.0, 1.0,    1.0f, 1.0f,        
-         0.5f, -0.5f, -0.5f,      0.0,1.0, 1.0,    1.0f, 0.0,
+         0.5f, -0.5f, -0.5f,      0.0,0.0, 0.0,    1.0f, 0.0f,
+         0.5f, -0.5f,  0.5f,      0.0,0.0, 0.0,    0.0f, 0.0f,
+         0.5f,  0.5f,  0.5f,      0.0,0.0, 0.0,    0.0f, 1.0f,
+         0.5f,  0.5f,  0.5f,      0.0,0.0, 0.0,    0.0f, 1.0f,       
+         0.5f,  0.5f, -0.5f,      0.0,0.0, 0.0,    1.0f, 1.0f,        
+         0.5f, -0.5f, -0.5f,      0.0,0.0, 0.0,    1.0f, 0.0,
 
-        -0.5f, -0.5f, -0.5f,       1.0,1.0, 0.0,     1.0f, 0.0f,
-         0.5f, -0.5f, -0.5f,       1.0,1.0, 0.0,     1.0f, 1.0f,        
-         0.5f, -0.5f,  0.5f,       1.0,1.0, 0.0,     0.0f, 1.0f,
-         0.5f, -0.5f,  0.5f,       1.0,1.0, 0.0,     0.0f, 1.0f,
-        -0.5f, -0.5f,  0.5f,       1.0,1.0, 0.0,     0.0f, 0.0f,
-        -0.5f, -0.5f, -0.5f,       1.0,1.0, 0.0,     1.0f, 0.0f,
+        -0.5f, -0.5f, -0.5f,       0.0,0.0, 0.0,     1.0f, 0.0f,
+         0.5f, -0.5f, -0.5f,       0.0,0.0, 0.0,     1.0f, 1.0f,        
+         0.5f, -0.5f,  0.5f,       0.0,0.0, 0.0,     0.0f, 1.0f,
+         0.5f, -0.5f,  0.5f,       0.0,0.0, 0.0,     0.0f, 1.0f,
+        -0.5f, -0.5f,  0.5f,       0.0,0.0, 0.0,     0.0f, 0.0f,
+        -0.5f, -0.5f, -0.5f,       0.0,0.0, 0.0,     1.0f, 0.0f,
 
-        -0.5f,  0.5f, -0.5f,       1.0,0.0, 1.0,     0.0f, 1.0f,
-         0.5f,  0.5f, -0.5f,       1.0,0.0, 1.0,     0.0f, 0.0f,        
-         0.5f,  0.5f,  0.5f,       1.0,0.0, 1.0,     1.0f, 0.0f,        
-         0.5f,  0.5f,  0.5f,       1.0,0.0, 1.0,     1.0f, 0.0f,
-        -0.5f,  0.5f,  0.5f,       1.0,0.0, 1.0,     1.0f, 1.0f,
-        -0.5f,  0.5f, -0.5f,       1.0,0.0, 1.0,     0.0f, 1.0f
+        -0.5f,  0.5f, -0.5f,       0.0,0.0, 0.0,     0.0f, 1.0f,
+         0.5f,  0.5f, -0.5f,       0.0,0.0, 0.0,     0.0f, 0.0f,        
+         0.5f,  0.5f,  0.5f,       0.0,0.0, 0.0,     1.0f, 0.0f,        
+         0.5f,  0.5f,  0.5f,       0.0,0.0, 0.0,     1.0f, 0.0f,
+        -0.5f,  0.5f,  0.5f,       0.0,0.0, 0.0,     1.0f, 1.0f,
+        -0.5f,  0.5f, -0.5f,       0.0,0.0, 0.0,     0.0f, 1.0f
 };
 
 
@@ -140,8 +140,6 @@ public:
     //coordenada
     glm::vec3 puntoInicial;
     vector<float> vertices;
-    vector<int> carasColores; 
-    vector<bool> carasActivas; 
 
 
     cubie() = default;
@@ -169,9 +167,6 @@ cubie::cubie(vec3 point, int id) {
     model = mat4(1.0f);
     model = glm::translate(model, puntoInicial);
     vertices = vertices0;
-    //inicializando carasColores en -1
-    vector<int> carasColoresTemp(6, -1);
-    carasColores = carasColoresTemp;
 
 }
 
@@ -205,52 +200,6 @@ void cubie::roteI(Shader* myShader) {
 }
 
 
-int cubie::setFace(char side) {
-    int ind;
-    switch (side) {
-    case 'D':
-        ind = 0;
-        break;
-    case 'U':
-        ind = 1;
-        break;
-    case 'B':
-        ind = 2;
-        break;
-    case 'F':
-        ind = 3;
-        break;
-    case 'L':
-        ind = 4;
-        break;
-    case 'R':
-        ind = 5;
-        break;
-    default:
-        ind = -1;
-        break;
-    }
-    carasActivas[ind] = true;
-    carasColores[ind] = ind;
-    return ind;
-}
-
-void cubie::setColors() {
-    for (int i = 0; i < carasColores.size(); i++) {     //i: 0 1 2 3 4 5 
-        if (carasColores[i] != -1) {        //si es diferente a negro
-            //cambiando los colores de los 6 v�rtices que conforman una cara
-            int indice = i * 6; //colocando en la fila inicial de la cara   0 - 6 - 12 - ... - 30
-            indice *= 8;    //colocando el �ndice correcto, ya que cada fila tiene 8 v�rtices.
-            indice += 3;   //colocandolo en el primer color
-            //cambiando los colores  en las 6 filas que pertenecen a la cara    estan en el �ndice  3(empezando con 0)
-            for (int j = 0; j < 6; j++, indice += 8) {
-                vertices[indice] = colores[carasColores[i]][0];
-                vertices[indice + 1] = colores[carasColores[i]][1];
-                vertices[indice + 2] = colores[carasColores[i]][2];
-            }
-        }
-    }
-}
 
 void cubie::configVertex() {
     glBindVertexArray(VAO[idVAO]);
@@ -307,12 +256,14 @@ void RubikCube::setInitialPoints() {
     vec3 init = vec3(-1.1, -1.1, -1.1);
     vector<vec3> puntos;
     vec3 capa = init;
-        
+
+    //generando 3 matrices de 3 x 3 para el cubo
     for (int k = 0; k < 3; k++) {
         vec3 fila = capa;
         for (int j = 0; j < 3; j++) {
             puntos.push_back(fila);
             vec3 columna = fila;
+            //creando dos cubos avanzando en eje x
             for (int i = 0; i < 2; i++) {
                 //avanza la columna
                 columna = columna + vec3(intervalo, 0.0, 0.0);
@@ -323,63 +274,12 @@ void RubikCube::setInitialPoints() {
         capa = capa + vec3(0.0, 0.0, intervalo);
     }
 
-    
-    for (int i = 0; i < puntos.size(); i++) {
-        //std::cout<<i<<": "<<puntos[i].x<<" "<<puntos[i].y<<" "<<puntos[i].z<<endl;
-        cubos[i] = new cubie(puntos[i], i);
-    }
-    // COLORES
-    
     //Creando 27 cubos peque�os
     for (int i = 0; i < puntos.size(); i++) {
         cubos[i] = new cubie(puntos[i], i);
     }
-
-    //Colocando que tienen el lado Down activo      0 1 2 3 4 5... 8
-    char lado = 'D';
-    for (int i = 0,cont=0; i < 9; i++,cont++) {
-        cubos[i]->setFace(lado);
-    }
-
-    //Colocando que tienen el lado Up activo
-    lado = 'U';
-    for (int i = 18,cont=0; i < 27; i++,cont++) {
-        cubos[i]->setFace(lado);
-    }
-
-    //Colocando que tienen el lado Bot activo
-    lado = 'B';
-    for (int i = 0,cont=0; i < 27; i += 3,cont++) {
-        cubos[i]->setFace(lado);     
-    }
-
-    //Colocando que tienen el lado Front activo
-    lado = 'F';
-    for (int i = 2,cont=0; i < 27; i += 3,cont++) {
-        cubos[i]->setFace(lado);
-    }
-
-    //Colocando que tienen el lado Left activo
-    lado = 'L';
-    for (int i = 0,cont=0; i < 27; i += 9,cont++) {
-        cubos[i]->setFace(lado);
-        cubos[i+1]->setFace(lado);
-        cubos[i+2]->setFace(lado);
-    }
-
-    //Colocando que tienen el lado Right activo
-    lado = 'R';
-    for (int i = 6,cont=0; i < 27; i += 9, cont++) {
-        cubos[i]->setFace(lado);
-        cubos[i + 1]->setFace(lado);
-        cubos[i + 2]->setFace(lado);
-    }
-
-    //Colocando los colores correctos de cada cubo  en los v�rtices (iniciaban con negro todos sus lados)
-    for (int i = 0; i < 27; i++) {
-        cubos[i]->setColors();
-    } 
 }
+
 
 
 
@@ -603,3 +503,4 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
 {
     camera.ProcessMouseScroll(yoffset);
 }
+
